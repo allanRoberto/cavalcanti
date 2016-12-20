@@ -1,0 +1,141 @@
+/*
+ Theme Name:   Divi Child Theme
+ Theme URI:    http://elegantthemes.com/
+ Description:  Divi Child Theme
+ Author:       ElegantThemes
+ Author URI:   http://elegantthemes.com
+ Template:     Divi
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ Text Domain:  divi-child-theme
+*/
+@font-face {
+  font-family: 'TypoGraphica';
+  src: url("fonts/TypoGraphica/TypoGraphica.eot?#iefix") format("embedded-opentype"), url("TypoGraphica.woff") format("woff"), url("TypoGraphica.ttf") format("truetype"), url("TypoGraphica.svg#TypoGraphica") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Body */
+/* Header */
+/* Top Header */
+/* Main Header */
+/* Vertical Navigation */
+/* Header Style */
+/* Fullwidth Header */
+/* Hide Header */
+/* Hide Logo */
+/* Fullwidth Top Header */
+/* Hide Search Icon */
+/* Footer */
+.about-home {
+  background-position: bottom center;
+  background-size: contain !important;
+}
+
+.primary-title p {
+  font-family: 'TypoGraphica';
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #bc4c6d;
+}
+
+.primary-title-simple p {
+  font-family: 'TypoGraphica';
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #bc4c6d;
+}
+
+.secondary-title-simple p {
+  font-family: 'TypoGraphica';
+  font-size: 17px;
+  color: #474a51;
+}
+
+.box-service {
+  padding-bottom: 55px;
+  background: #F6F6F6;
+  border-right: 1px solid #e2e2e2;
+}
+
+.box-service:last-child {
+  border-right: 0px !important;
+}
+
+.box-service .secondary-title-simple {
+  padding-bottom: 20px !important;
+}
+
+.box-service .et_pb_text {
+  margin: auto !important;
+}
+
+.box-service:before {
+  content: "";
+  width: 100%;
+  height: 152px;
+  background: url(img/icon-service.png) right top no-repeat;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box-service:after {
+  content: "";
+  width: 100%;
+  height: 47px;
+  background: url(img/pattern-bottom-service.png) center top no-repeat;
+  display: block;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.primary-title:after {
+  content: "";
+  background: url("img/line-title.png") center top no-repeat;
+  width: 100%;
+  height: 17px;
+  display: block;
+  margin-top: 10px;
+}
+
+.title-feature {
+  font-family: 'TypoGraphica';
+  font-size: 28px;
+  padding: 30px 20px;
+  display: table;
+  float: left;
+  background: #bc4c6d;
+  color: #fff;
+}
+
+.item-feature h5 {
+  font-family: 'TypoGraphica';
+  font-size: 22px;
+  color: #bc4c6d;
+  padding-bottom: 0px;
+}
+
+.item-feature h5:after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #81d8dd;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item-feature p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+/* Button */
+/* Input */
+/* Footer */
+
+/*# sourceMappingURL=style.css.map */
