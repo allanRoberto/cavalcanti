@@ -239,6 +239,10 @@
 								echo( $primaryNav );
 							endif;
 						?>
+						<div class="phone">
+							<p><strong>11</strong>4171-3004</p>
+							<p class="icon-whatsapp"><strong>11</strong>94035-1670</p>
+						</div>
 						</nav>
 					<?php endif; ?>
 
